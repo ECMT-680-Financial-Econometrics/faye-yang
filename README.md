@@ -1,4 +1,5 @@
 # faye-yang
+with my code being r studio the data is included in the r package
 To provide a comprehensive guide for researchers and policymakers on using interrupted time series (ITS) analysis with autoregressive integrated moving average (ARIMA) models to evaluate the impact of large-scale health interventions. ITS analysis is a powerful statistical technique for assessing the effect of interventions over time, especially when randomized controlled trials are not feasible. ARIMA models, which account for underlying trends, seasonality, and autocorrelation in time series data, enhance the robustness of ITS analyses. The objective is to improve the understanding and application of ITS-ARIMA in evaluating health policy and program interventions, ensuring accurate, credible results that can inform policy decisions and public health practice.
 \item Methodology:
 The guide will outline the step-by-step methodology for conducting ITS analysis using ARIMA models, including:
