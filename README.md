@@ -1,4 +1,22 @@
 # faye-yang
+my prompt
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\begin{document}
+
+\textbf{Interrupted Time Series Analysis Using ARIMA Models: A Guide for Evaluating Large-Scale Health Interventions}
+
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+    \item \textbf{Objective:} To provide a comprehensive guide on employing ARIMA models in ITS analysis for assessing the impact of health interventions.
+    \item \textbf{Methodology \& Instrument:} Detailed explanation on integrating ARIMA models within ITS analysis to handle autocorrelation, seasonality, and non-stationarity in health-related time series data.
+    \item \textbf{Reason:} ARIMA models offer advanced capabilities for more accurately estimating intervention effects over time, addressing issues traditional ITS analysis may overlook.
+    \item \textbf{Data:} Utilization of health intervention data, illustrating the application of ARIMA models in real-world scenarios.
+    \item \textbf{Results:} Enhanced precision in determining the effectiveness of health interventions, contributing to more informed policy-making and program development.
+\end{itemize}
+
+\end{document}
 with my code being r studio the data is included in the r package
 To provide a comprehensive guide for researchers and policymakers on using interrupted time series (ITS) analysis with autoregressive integrated moving average (ARIMA) models to evaluate the impact of large-scale health interventions. ITS analysis is a powerful statistical technique for assessing the effect of interventions over time, especially when randomized controlled trials are not feasible. ARIMA models, which account for underlying trends, seasonality, and autocorrelation in time series data, enhance the robustness of ITS analyses. The objective is to improve the understanding and application of ITS-ARIMA in evaluating health policy and program interventions, ensuring accurate, credible results that can inform policy decisions and public health practice.
 \item Methodology:
@@ -84,3 +102,4 @@ plot(quet.ts.2, type="l", plot.type="s", col=c('blue','red'), xlab="Month", ylab
 abline(v=2014, lty="dashed", col="gray")
 
 ```
+
