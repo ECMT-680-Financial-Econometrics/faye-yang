@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{ARIMA Model and Transfer Function}
+
+\subsection*{ARIMA Model Equation}
+
+A non-seasonal ARIMA model is denoted as ARIMA(p,d,q), where:
+\begin{itemize}
+    \item \(p\) is the order of the autoregressive part,
+    \item \(d\) is the degree of non-seasonal differencing,
+    \item \(q\) is the order of the moving average part.
+\end{itemize}
+
+The general form of the ARIMA model can be written as:
+\[
+(1 - \sum_{i=1}^{p} \phi_i B^i)(1 - B)^d Y_t = (1 + \sum_{i=1}^{q} \theta_i B^i) \varepsilon_t
+\]
+
+where:
+\begin{itemize}
+    \item \(B\) is the backshift operator, \(B^i Y_t = Y_{t-i}\),
+    \item \(\phi_i\) are the parameters of the autoregressive part,
+    \item \(\theta_i\) are the parameters of the moving average part,
+    \item \(\varepsilon_t\) is the error term.
+\end{itemize}
+
+\subsection*{Transfer Function for Intervention Effects}
+
+The transfer function for intervention effects takes into account the initial impact (\(\omega_0\)), the decay rate (\(\delta\)), and the type of intervention (step change, pulse, or ramp). The general form is:
+\[
+Y_t = \mu + \frac{\omega_0 + \omega_1 B + \omega_2 B^2 + \cdots + \omega_h B^h}{1 - \delta_1 B - \delta_2 B^2 - \cdots - \delta_r B^r} X_t + \varepsilon_t
+\]
+
+where:
+\begin{itemize}
+    \item \(\mu\) is the mean of the series,
+    \item \(\omega_i\) are the parameters that describe the initial and subsequent impacts of the intervention at various lags,
+    \item \(\delta_i\) are the parameters that describe the decay of the intervention effect over time,
+    \item \(X_t\) is the intervention variable (step change, pulse, or ramp),
+    \item \(h\) and \(r\) are the lag orders for the impact and decay of the intervention effect, respectively.
+\end{itemize}
+
+This model allows for the flexible modeling of intervention effects, accommodating various types of changes in the dependent variable in response
