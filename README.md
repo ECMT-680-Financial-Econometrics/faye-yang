@@ -63,3 +63,8 @@ To set up the environment for running the code, install the required R packages 
 install.packages("astsa")
 install.packages("forecast")
 install.packages("dplyr")
+
+
+
+
+https://colab.research.google.com/drive/1OD4Vxmts5QNqvG-QeODOxl172ZjXlomO?usp=sharing
