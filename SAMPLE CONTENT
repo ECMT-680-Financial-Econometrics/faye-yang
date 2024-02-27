@@ -1,0 +1,10 @@
+SAMPLE CONTENT
+Background: The paper emphasizes the growing use of interrupted time series analysis for evaluating large-scale health interventions. Segmented regression is noted as common but sometimes insufficient due to seasonality and autocorrelation. An ARIMA model is presented as a more adaptable alternative.
+
+Methods: The paper elaborates on ARIMA model theory and its application in assessing population-level health policy implementations. It outlines steps like selecting the model’s impact shape, the model selection process, transfer functions, checking model fit, and interpretation of findings. The paper provides R and SAS code examples for replication.
+
+Results: The study showcases ARIMA modeling through a case study on policy intervention aimed at reducing inappropriate prescribing. Specifically, it examines the effects of the Australian government’s January 2014 policy that removed prescription refills for 25 mg quetiapine tablets to prevent off-label use, using prescription claims data.
+
+Conclusions: ARIMA modeling is highlighted as a valuable method for assessing the impact of substantial interventions, especially when other methods are less appropriate. It effectively handles trends, autocorrelation, and seasonality, and it is versatile in modeling different impact types .
+
+
