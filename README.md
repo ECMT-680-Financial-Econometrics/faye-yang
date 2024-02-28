@@ -67,6 +67,10 @@ install.packages("astsa")
 install.packages("forecast")
 install.packages("dplyr")
 
+![58961708896607_ pic](https://github.com/ECMT-680-Financial-Econometrics/faye-yang/assets/161257123/fb7b2d4a-1701-4f56-b71c-ba0cb073f3a7)
+![58951708896601_ pic_hd](https://github.com/ECMT-680-Financial-Econometrics/faye-yang/assets/161257123/35d59e8b-9c86-420c-917f-534b9ce7a1ba)
+![58941708896589_ pic](https://github.com/ECMT-680-Financial-Econometrics/faye-yang/assets/161257123/c9dd2180-0861-40da-9558-af94f474a8e2)
+![58931708896579_ pic](https://github.com/ECMT-680-Financial-Econometrics/faye-yang/assets/161257123/e32c1d8d-3c25-4b29-a75f-8483024311b5)
 
 
 
