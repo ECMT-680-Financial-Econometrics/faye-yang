@@ -51,7 +51,7 @@ The guide will be disseminated through peer-reviewed journals, conferences, and 
 Development involved collaboration with experts and sought support from health organizations to ensure applicability across various interventions.
 
 ## Contact
-For any queries or collaboration, please reach out through [GitHub issues](link-to-your-github-issues) or directly via email (your-email@domain.com).
+For any queries or collaboration, please reach out through [GitHub issues](link-to-your-github-issues) or directly via email (wisteria@tamu.edu).
 
 ---
 
