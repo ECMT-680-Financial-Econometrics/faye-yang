@@ -1,5 +1,6 @@
 # faye-yang
-latex poster[its.pdf](https://github.com/ECMT-680-Financial-Econometrics/faye-yang/files/14438649/its.pdf)
+latex poster[its (6).pdf](https://github.com/ECMT-680-Financial-Econometrics/faye-yang/files/14439185/its.6.pdf)
+
 
 my prompt
 \documentclass[12pt]{article}
