@@ -1,4 +1,6 @@
 # faye-yang
+latex poster[its.pdf](https://github.com/ECMT-680-Financial-Econometrics/faye-yang/files/14438649/its.pdf)
+
 my prompt
 \documentclass[12pt]{article}
 \usepackage{hyperref}
